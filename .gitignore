@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+TEP Fault Detection/data/*.RData
+TEP Fault Detection/data/*.parquet
