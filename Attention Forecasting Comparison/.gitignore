@@ -1,0 +1,13 @@
+# Datasets (too large for git)
+data/jena_climate_2009_2016.csv
+data/ETDataset-main/
+data/multivariate-time-series-data-master/
+
+# Model checkpoints
+outputs/checkpoints/*.pt
+
+# OS junk
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

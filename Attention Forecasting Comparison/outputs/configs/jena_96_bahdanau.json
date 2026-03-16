@@ -1,0 +1,23 @@
+{
+  "dataset": "Jena Climate",
+  "target": "T (degC)",
+  "lookback": 96,
+  "horizon": 96,
+  "batch_size": 64,
+  "model": "bahdanau",
+  "total_params": 97409,
+  "best_epoch": 4,
+  "best_val_mse": 0.161975,
+  "training_time_s": 2032.0,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "patience": 7,
+  "clip_grad": 1.0,
+  "max_epochs": 80,
+  "hidden_dim": 64,
+  "enc_layers": 2,
+  "dropout": 0.3,
+  "tf_start": 1.0,
+  "tf_end": 0.0,
+  "tf_anneal": 30
+}

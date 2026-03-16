@@ -1,0 +1,2 @@
+Model,MSE_scaled,MAE_scaled,MSE_original,MAE_original
+bahdanau,0.544539,0.612958,0.0017,0.0341

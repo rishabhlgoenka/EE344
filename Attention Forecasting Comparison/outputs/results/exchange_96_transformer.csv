@@ -1,0 +1,2 @@
+Model,MSE_scaled,MAE_scaled,MSE_original,MAE_original
+transformer,0.683166,0.718454,0.0021,0.04

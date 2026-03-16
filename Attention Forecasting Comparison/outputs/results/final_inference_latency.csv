@@ -1,0 +1,10 @@
+Dataset,Model,Batch Latency (ms),Std (ms),Per-Sample (ms)
+ETTh1,M1 Bahdanau,97.9,18.58,1.53
+ETTh1,M2 SelfAttn,87.11,9.29,1.361
+ETTh1,M3 Transformer,11.46,0.54,0.179
+Jena Climate,M1 Bahdanau,87.43,5.04,1.366
+Jena Climate,M2 SelfAttn,92.88,15.19,1.451
+Jena Climate,M3 Transformer,13.76,1.12,0.215
+Exchange Rate,M1 Bahdanau,40.2,1.98,0.628
+Exchange Rate,M2 SelfAttn,36.77,1.7,0.575
+Exchange Rate,M3 Transformer,7.43,0.66,0.116

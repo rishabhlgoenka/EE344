@@ -1,0 +1,2 @@
+Model,MSE_scaled,MAE_scaled,MSE_original,MAE_original
+selfattn,0.630489,0.66251,0.002,0.0369

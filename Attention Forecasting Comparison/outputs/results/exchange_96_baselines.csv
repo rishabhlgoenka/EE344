@@ -1,0 +1,4 @@
+Model,MSE_scaled,MAE_scaled,MSE_original,MAE_original
+Persistence,0.068038,0.1978,0.0002,0.011
+Seasonal Naive 7d,0.072133,0.205866,0.0002,0.0115
+Linear Regression,0.098691,0.240094,0.0003,0.0134

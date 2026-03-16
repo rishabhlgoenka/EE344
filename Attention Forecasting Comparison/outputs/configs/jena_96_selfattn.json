@@ -1,0 +1,23 @@
+{
+  "dataset": "Jena Climate",
+  "target": "T (degC)",
+  "lookback": 96,
+  "horizon": 96,
+  "batch_size": 64,
+  "model": "selfattn",
+  "total_params": 96841,
+  "best_epoch": 23,
+  "best_val_mse": 0.152258,
+  "training_time_s": 4996.2,
+  "lr": 0.0005,
+  "weight_decay": 0.0001,
+  "patience": 7,
+  "clip_grad": 1.0,
+  "max_epochs": 80,
+  "hidden_dim": 60,
+  "enc_layers": 2,
+  "dropout": 0.2,
+  "tf_start": 1.0,
+  "tf_end": 0.0,
+  "tf_anneal": 30
+}

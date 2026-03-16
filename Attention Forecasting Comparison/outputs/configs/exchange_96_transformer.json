@@ -1,0 +1,23 @@
+{
+  "dataset": "Exchange Rate",
+  "target": "SGD",
+  "lookback": 30,
+  "horizon": 96,
+  "batch_size": 32,
+  "model": "transformer",
+  "total_params": 94881,
+  "best_epoch": 4,
+  "best_val_mse": 0.979939,
+  "training_time_s": 94.3,
+  "lr": 0.0005,
+  "weight_decay": 0.0001,
+  "patience": 10,
+  "clip_grad": 1.0,
+  "max_epochs": 80,
+  "d_model": 64,
+  "n_heads": 4,
+  "n_layers": 1,
+  "dim_ff": 144,
+  "dropout": 0.2,
+  "warmup_epochs": 5
+}

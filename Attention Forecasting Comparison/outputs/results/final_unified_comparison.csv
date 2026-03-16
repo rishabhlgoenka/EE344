@@ -1,0 +1,19 @@
+Dataset,Model,MSE_scaled,MAE_scaled,MSE_original,MAE_original
+ETTh1,Persistence,0.129382,0.273832,9.3779,2.3313
+ETTh1,Seasonal Naive 24h,0.140399,0.288135,10.1765,2.4531
+ETTh1,Linear Regression,0.117399,0.263312,8.5094,2.2418
+ETTh1,LSTM+Bahdanau (M1),0.178013,0.345939,12.9028,2.9452
+ETTh1,LSTM+SelfAttn (M2),0.093443,0.234754,6.773,1.9986
+ETTh1,Transformer (M3),0.194951,0.365888,14.1306,3.115
+Jena Climate,Persistence,0.391768,0.480963,30.5126,4.2446
+Jena Climate,Seasonal Naive 24h,0.268424,0.397489,20.906,3.5079
+Jena Climate,Linear Regression,7.712432,0.497687,600.6777,4.3922
+Jena Climate,LSTM+Bahdanau (M1),0.186744,0.33541,14.5444,2.9601
+Jena Climate,LSTM+SelfAttn (M2),0.171966,0.321304,13.3935,2.8356
+Jena Climate,Transformer (M3),0.171552,0.323813,13.3612,2.8577
+Exchange Rate,Persistence,0.068038,0.1978,0.0002,0.011
+Exchange Rate,Seasonal Naive 7d,0.072133,0.205866,0.0002,0.0115
+Exchange Rate,Linear Regression,0.098691,0.240094,0.0003,0.0134
+Exchange Rate,LSTM+Bahdanau (M1),0.544539,0.612958,0.0017,0.0341
+Exchange Rate,LSTM+SelfAttn (M2),0.630489,0.66251,0.002,0.0369
+Exchange Rate,Transformer (M3),0.683166,0.718454,0.0021,0.04

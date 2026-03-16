@@ -1,0 +1,10 @@
+Dataset,Model,Mean Entropy,Normalized Entropy,Peak Lag (idx),Peak Lag (hours),Peak Weight,Peak Lag (days)
+ETTh1,M1 Bahdanau,4.5637,0.9999,27.0,27.0,0.0106,
+ETTh1,M2 SelfAttn,4.5643,1.0,0.0,0.0,0.0104,
+ETTh1,M3 Transformer,,,,,,
+Jena Climate,M1 Bahdanau,4.561,0.9993,57.0,57.0,0.0108,
+Jena Climate,M2 SelfAttn,4.5643,1.0,0.0,0.0,0.0104,
+Jena Climate,M3 Transformer,,,,,,
+Exchange Rate,M1 Bahdanau,3.3952,0.9982,24.0,,0.0351,24.0
+Exchange Rate,M2 SelfAttn,3.4012,1.0,0.0,,0.0333,0.0
+Exchange Rate,M3 Transformer,,,,,,

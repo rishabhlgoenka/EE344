@@ -1,0 +1,10 @@
+Dataset,Model,Params,Best Epoch,Epochs Run,Best Val MSE,Train Time (s),Overfit Ratio
+ETTh1,M1 Bahdanau,"95,361",1,11,0.1254,529.9,0.761
+ETTh1,M2 SelfAttn,"94,921",16,26,0.0792,1137.2,0.408
+ETTh1,M3 Transformer,"94,945",1,11,0.226,167.1,1.28
+Jena Climate,M1 Bahdanau,"97,409",4,11,0.162,2032.0,0.097
+Jena Climate,M2 SelfAttn,"96,841",23,30,0.1523,4996.2,0.329
+Jena Climate,M3 Transformer,"95,457",4,11,0.1573,663.9,0.986
+Exchange Rate,M1 Bahdanau,"95,105",1,11,0.9486,191.4,0.119
+Exchange Rate,M2 SelfAttn,"94,681",6,16,1.0092,256.6,0.009
+Exchange Rate,M3 Transformer,"94,881",4,14,0.9799,94.3,0.054

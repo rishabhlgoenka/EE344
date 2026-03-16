@@ -1,0 +1,6 @@
+Dataset Characteristic,Recommended,Reasoning
+Strong periodicity + large dataset,M2 (SelfAttn) or M3 (Transformer),Both capture periodic structure; M3 benefits from parallel decode on large datasets
+Multi-scale dependencies + moderate data,M2 (SelfAttn),Self-attention pre-processing captures cross-timestep dependencies that Bahdanau alone misses
+Stochastic / near-random-walk,Simple baselines (Persistence),Neural attention adds no value when there is no learnable temporal structure
+Inference speed critical,M3 (Transformer),Parallel decode is significantly faster than autoregressive M1/M2
+Interpretability required,M1 (Bahdanau) or M2 (SelfAttn),Native attention weights directly available; M3 requires hooks and multi-head averaging

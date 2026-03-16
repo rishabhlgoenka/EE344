@@ -1,0 +1,7 @@
+Model,MSE_scaled,MAE_scaled,MSE_original,MAE_original
+Persistence,0.068038,0.1978,0.0002,0.011
+Seasonal Naive 7d,0.072133,0.205866,0.0002,0.0115
+Linear Regression,0.098691,0.240094,0.0003,0.0134
+LSTM+Bahdanau (M1),0.544539,0.612958,0.0017,0.0341
+LSTM+SelfAttn (M2),0.630489,0.66251,0.002,0.0369
+Transformer (M3),0.683166,0.718454,0.0021,0.04

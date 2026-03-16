@@ -1,0 +1,23 @@
+{
+  "dataset": "Exchange Rate",
+  "target": "SGD",
+  "lookback": 30,
+  "horizon": 96,
+  "batch_size": 32,
+  "model": "bahdanau",
+  "total_params": 95105,
+  "best_epoch": 1,
+  "best_val_mse": 0.948571,
+  "training_time_s": 191.4,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "patience": 10,
+  "clip_grad": 1.0,
+  "max_epochs": 80,
+  "hidden_dim": 64,
+  "enc_layers": 2,
+  "dropout": 0.3,
+  "tf_start": 1.0,
+  "tf_end": 0.0,
+  "tf_anneal": 30
+}
